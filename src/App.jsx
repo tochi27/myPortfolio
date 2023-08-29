@@ -10,8 +10,8 @@ function App() {
       <main>
         <Header />
         <Aboutme />
-        {/* <Experience /> */}
         <Projects />
+        {/* <Experience /> */}
       </main>
 
       <Footer />

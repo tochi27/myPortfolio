@@ -14,7 +14,7 @@
 }
 
 .line {
-  background: #0f172a;
+  background: red;
 }
 
 .lineDark {
@@ -40,7 +40,7 @@
   .text {
     font-weight: 800;
     font-size: 2rem;
-    color: #0f172a;
+    /* color: #0f172a; */
     -webkit-text-stroke: unset;
     -webkit-text-fill-color: unset;
   }
