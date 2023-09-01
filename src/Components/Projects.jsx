@@ -77,7 +77,7 @@ export default function Projects() {
               </p>
               <div className={styles.links}>
                 <a
-                  href={"https://github.com/tochi27/weather-App"}
+                  href={"https://weather-app-tfx1.vercel.app/"}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
