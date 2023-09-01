@@ -77,7 +77,7 @@ export default function Projects() {
               </p>
               <div className={styles.links}>
                 <a
-                  href={"https://weather-app-tfx1.vercel.app/"}
+                  href={"https://github.com/tochi27/weather-App"}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
@@ -85,7 +85,7 @@ export default function Projects() {
                   <i className={`fa-brands fa-github ${styles.icons}`}></i>
                 </a>
                 <a
-                  href={"https://weather-app-tochi27.vercel.app/"}
+                  href={"https://weather-app-tfx1.vercel.app/"}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
