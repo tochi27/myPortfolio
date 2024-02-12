@@ -15,9 +15,11 @@
   padding: 4px 6px;
 }
 .icon:hover {
-  background-color: #fff;
+  background-color: aqua;
   color: #0f172a;
   transform: scale(1.1);
+  border-radius: 50%;
+  text-shadow: 0.03em 0.03em 0 #fff;
 }
 
 .anchor {

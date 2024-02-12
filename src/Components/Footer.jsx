@@ -23,7 +23,7 @@ export default function Footer() {
       </a>
 
       <a
-        href={"Mailto:tochukwuamaechina2703@gmail.com"}
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=tochukwuamaechina2703@gmail.com"
         target="_blank"
         rel="noreferrer"
         className={styles.anchor}
