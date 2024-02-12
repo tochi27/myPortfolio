@@ -2,7 +2,7 @@
   background: #0f172a;
   color: #fff;
   display: grid;
-  min-height: 100svh;
+  min-height: fit-content;
   /* display: flex;
   flex-direction: row;
   justify-content: center;
@@ -30,6 +30,7 @@
   align-items: center;
   gap: 3rem;
   font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 .icons {
@@ -52,6 +53,25 @@
   color: unset;
 }
 
+.resume {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #0f172a;
+  background-color: #fff;
+  transition: background-color 400ms, color 400ms, border-color 400ms;
+}
+
+.resume:hover {
+  background-color: #0f172a;
+  color: #fff;
+  border-color: #fff;
+}
 
 
 /* ============== HEADER MEDIA QUERY ===================== */
