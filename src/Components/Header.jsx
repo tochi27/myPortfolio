@@ -7,13 +7,13 @@ export default function Header() {
       <h1 className={styles.headerText}>Tochukwu Henry Amaechina (Software Developer)</h1>
       <div className={styles.navItems}>
         <a href="#about-me" className={styles.anchor}>
-          <i className={`fa-solid fa-user ${styles.icons}`}>About me</i>
+          <i className={`fa-solid fa-user ${styles.icons}`}></i>
         </a>
         {/* <a href="#experience" className={styles.anchor}>
           <i className={`fa-solid fa-diagram-project ${styles.icons}`}></i>
         </a> */}
         <a href="#projects" className={styles.anchor}>
-          <i className={`fa-solid fa-trophy ${styles.icons}`}>Projects</i>
+          <i className={`fa-solid fa-trophy ${styles.icons}`}></i>
         </a>
         <a
           href={"https://github.com/tochi27?tab=repositories"}
@@ -21,7 +21,7 @@ export default function Header() {
           rel="noreferrer"
           className={styles.anchor}
         >
-          <i className={`fa-brands fa-github ${styles.icons}`}>Github</i>
+          <i className={`fa-brands fa-github ${styles.icons}`}></i>
         </a>
       </div>
     </header>
