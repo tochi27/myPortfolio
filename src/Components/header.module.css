@@ -36,6 +36,7 @@
 .icons {
   transition-duration: 300ms;
   padding: 4px 6px;
+  font-size: 5rem;
 }
 
 .icons:hover {
@@ -95,6 +96,6 @@
   }
 
   .icons {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 } ;
