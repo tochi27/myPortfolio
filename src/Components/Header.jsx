@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./header.module.css";
-import tochiPurple2 from "../assests/tochiPurple2.pdf";
+import purpleTochi from "../assests/purpleTochi.pdf";
 
 export default function Header() {
   return (
@@ -31,10 +31,10 @@ export default function Header() {
         <button>
           <a
             className={styles.resume}
-            href={tochiPurple2}
+            href={purpleTochi}
             target="_blank"
             rel="noreferrer"
-            download={tochiPurple2.pdf}
+            download={purpleTochi.pdf}
           >
             My Resume
           </a>

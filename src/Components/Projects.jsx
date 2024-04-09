@@ -4,7 +4,8 @@ import SectionIntroduction from "./SectionIntroduction";
 import meal from "../assests/meal.png";
 import storefront from "../assests/storefront.png";
 import weather from "../assests/weather.png";
-import student from "../assests/student.png"
+// import student from "../assests/student.png";
+import taskApp from "../assests/taskApp.png";
 
 export default function Projects() {
   return (
@@ -31,6 +32,33 @@ export default function Projects() {
                 </a>
                 <a
                   href={"https://react-table-project-ten.vercel.app"}
+                  rel="noreferrer"
+                  className={styles.button}
+                >
+                  Link to Demo &#8594;
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.imgDisplay}>
+            <img className={styles.img} src={taskApp} alt="To-Do Web App" />
+            <div className={styles.overlay}>
+              <h2 className={styles.touchText}>Task Manager Web Application</h2>
+              <p className={styles.paragraph}>
+                A To-Do Task Web Application built with MERN-Stack and CSS.
+              </p>
+              <div className={styles.links}>
+                <a
+                  href={"https://github.com/tochi27/Mern-task-app-frontend"}
+                  rel="noreferrer"
+                  target="_blank"
+                  className={styles.button}
+                >
+                  <i className={`fa-brands fa-github ${styles.icons}`}></i>
+                </a>
+                <a
+                  href={"https://mern-task-app-3h2x.onrender.com/"}
                   rel="noreferrer"
                   className={styles.button}
                 >
@@ -96,16 +124,16 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className={styles.imgDisplay}>
+          {/* <div className={styles.imgDisplay}>
             <img className={styles.img} src={student} alt="Crypto Store" />
             <div className={styles.overlay}>
               <h2 className={styles.touchText}>Student Registration portal</h2>
               <p className={styles.paragraph}>
-                Student Registration portal built using React.Js, TailwindCSS and API.
+                Coming Soon.
               </p>
               <div className={styles.links}>
                 <a
-                  href={"https://github.com/tochi27/e-attendance"}
+                  href={"https://github.com/tochi27/e-attendance/closed"}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
@@ -113,7 +141,7 @@ export default function Projects() {
                   <i className={`fa-brands fa-github ${styles.icons}`}></i>
                 </a>
                 <a
-                  href={"https://e-attendance-six.vercel.app/"}
+                  href={"https://e-attendance-six.vercel.appt/closed"}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
@@ -122,7 +150,7 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
