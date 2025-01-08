@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./projects.module.css";
 import SectionIntroduction from "./SectionIntroduction";
-import meal from "../assests/meal.png";
-import storefront from "../assests/storefront.png";
-import weather from "../assests/weather.png";
-// import student from "../assests/student.png";
 import taskApp from "../assests/taskApp.png";
+import taskAppWithAuth from "../assests/taskAppWithAuth.avif";
+import langEasy from "../assests/langeasy.png";
+import iris from "../assests/iris.png";
+import qa from "../assests/qa.png";
 
 export default function Projects() {
   return (
@@ -13,34 +13,7 @@ export default function Projects() {
       <div className={styles.wrapper}>
         <SectionIntroduction>PROJECTS</SectionIntroduction>
         <div className={styles.sectionContent}>
-          <div className={styles.imgDisplay}>
-            <img className={styles.img} src={storefront} alt="Ecommerce Store" />
-            <div className={styles.overlay}>
-              <h2 className={styles.touchText}>E-commerce Store</h2>
-              <p className={styles.paragraph}>
-                Online Clothing E-commerce store built with React.js,
-                TailwindCSS and API.
-              </p>
-              <div className={styles.links}>
-                <a
-                  href={"https://github.com/tochi27/react-classwork-project"}
-                  rel="noreferrer"
-                  target="_blank"
-                  className={styles.button}
-                >
-                  <i className={`fa-brands fa-github ${styles.icons}`}></i>
-                </a>
-                <a
-                  href={"https://react-table-project-ten.vercel.app"}
-                  rel="noreferrer"
-                  className={styles.button}
-                >
-                  Link to Demo &#8594;
-                </a>
-              </div>
-            </div>
-          </div>
-
+          {/* TaskApp */}
           <div className={styles.imgDisplay}>
             <img className={styles.img} src={taskApp} alt="To-Do Web App" />
             <div className={styles.overlay}>
@@ -68,16 +41,25 @@ export default function Projects() {
             </div>
           </div>
 
+          {/* TaskApp with Auth */}
           <div className={styles.imgDisplay}>
-            <img className={styles.img} src={meal} alt="Meal Recipe website" />
+            <img
+              className={styles.img}
+              src={taskAppWithAuth}
+              alt="To-Do Web App"
+            />
             <div className={styles.overlay}>
-              <h2 className={styles.touchText}>Meal Recipe Website</h2>
+              <h2 className={styles.touchText}>
+                Task Manager Web Application complete with Authentication(A Backend
+                application)
+              </h2>
               <p className={styles.paragraph}>
-                Meal Recipe website built using Java Script, CSS and API.
+                A To-Do Task Web-Application(CRUD) built with User-authentication(A
+                Backend application).
               </p>
               <div className={styles.links}>
                 <a
-                  href={"https://github.com/tochi27/Purple-RECi-SiTE"}
+                  href={"https://github.com/tochi27/NIYO-Task-Manager"}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
@@ -85,7 +67,44 @@ export default function Projects() {
                   <i className={`fa-brands fa-github ${styles.icons}`}></i>
                 </a>
                 <a
-                  href={"https://purple-re-ci-si-te.vercel.app/"}
+                  href={"https://niyo-task-manager.onrender.com/"}
+                  rel="noreferrer"
+                  className={styles.button}
+                >
+                  Link to Demo &#8594;
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* LangEasy */}
+          <div className={styles.imgDisplay}>
+            <img
+              className={styles.img}
+              src={langEasy}
+              alt="Data Collection for AI. V1 "
+            />
+            <div className={styles.overlay}>
+              <h2 className={styles.touchText}>
+                A Multilingual Data Collection App leveraging African native intelligence for AI model training.
+              </h2>
+              <p className={styles.paragraph}>
+                Data collection App Interface for training models. Built with
+                React, Node.js, Express, and MongoDB.
+              </p>
+              <div className={styles.links}>
+                <a
+                  href={" "}
+                  rel="noreferrer"
+                  target="_blank"
+                  className={styles.button}
+                >
+                  <i className={``}>Repo not available. Privately owned</i>
+                </a>
+                <a
+                  href={
+                    "https://langeasy-frontend-dev-tk7ash3eaa-uc.a.run.app/"
+                  }
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
@@ -96,61 +115,71 @@ export default function Projects() {
             </div>
           </div>
 
+          {/* QA system */}
           <div className={styles.imgDisplay}>
-            <img className={styles.img} src={weather} alt="Weather Update website" />
+            <img className={styles.img} src={qa} alt="QA System" />
             <div className={styles.overlay}>
-              <h2 className={styles.touchText}>Weather Website</h2>
+              <h2 className={styles.touchText}>
+                QA system with multi-user interface.
+              </h2>
               <p className={styles.paragraph}>
-                Weather Update website built using Java Script, CSS and API.
+                QA system with multi-user interface. 3 Layers of Data
+                Quality-Assuring. Built with React, Node.js, Express, and
+                MongoDB.
               </p>
               <div className={styles.links}>
                 <a
-                  href={"https://github.com/tochi27/weather-App"}
+                  href={" "}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
                 >
-                  <i className={`fa-brands fa-github ${styles.icons}`}></i>
+                  <i className={``}>Repo not available. Privately owned</i>
                 </a>
                 <a
-                  href={"https://weather-app-tfx1.vercel.app/"}
+                  href={" "}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
                 >
-                  Link to Demo &#8594;
+                  Link not available. Privately owned
                 </a>
               </div>
             </div>
           </div>
 
-          {/* <div className={styles.imgDisplay}>
-            <img className={styles.img} src={student} alt="Crypto Store" />
+          {/* Iris */}
+          <div className={styles.imgDisplay}>
+            <img className={styles.img} src={iris} alt="Iris" />
             <div className={styles.overlay}>
-              <h2 className={styles.touchText}>Student Registration portal</h2>
+              <h2 className={styles.touchText}>Iris Chat Engine</h2>
               <p className={styles.paragraph}>
-                Coming Soon.
+                Iris is an intelligent conversational engine designed to assist
+                users in performing everyday tasks with ease and efficiency.
+                Powered by natural language processing, it understands queries,
+                provides insights, and seamlessly interacts with users to
+                deliver personalized experiences.
               </p>
               <div className={styles.links}>
                 <a
-                  href={"https://github.com/tochi27/e-attendance/closed"}
+                  href={" "}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
                 >
-                  <i className={`fa-brands fa-github ${styles.icons}`}></i>
+                  <i className={``}>Repo not available. Privately owned</i>
                 </a>
                 <a
-                  href={"https://e-attendance-six.vercel.appt/closed"}
+                  href={" "}
                   rel="noreferrer"
                   target="_blank"
                   className={styles.button}
                 >
-                  Link to Demo &#8594;
+                  Link not available. Privately owned
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./header.module.css";
-import purpleTochi from "../assests/purpleTochi.pdf";
+import purpleTochi from "../assests/TochiCV.pdf";
 
 export default function Header() {
   return (
